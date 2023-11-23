@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.title {
+  color: #000;
+  font-family: Sen;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.content {
+  border-radius: 50px;
+  background: #f3f3fb;
+  display: flex;
+
+  padding: 80px;
+
+  align-items: flex-start;
+  gap: 40px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
